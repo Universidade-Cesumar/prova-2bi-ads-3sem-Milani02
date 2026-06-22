@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -o -q Prova_2BI_orientacao_Sprint3.docx -d _docx_tmp)",
+      "Bash(rm -rf _docx_tmp)",
+      "Bash(npm install *)",
+      "Bash(npx jest *)"
+    ]
+  }
+}

@@ -330,6 +330,20 @@ tbody td {
   font-size: 0.85rem;
 }
 
+/* Sprint 3 - Alerta visual de estoque crítico (< 10 unidades) */
+tbody tr.estoque-critico {
+  background: var(--danger-bg);
+}
+
+tbody tr.estoque-critico:hover {
+  background: var(--danger-hover);
+}
+
+tbody tr.estoque-critico .badge-qtd {
+  background: #fee2e2;
+  color: var(--danger-text);
+}
+
 /* Botões da Tabela (Sprint 2) */
 .btn-baixar, .btn-excluir {
   padding: 6px 12px;
